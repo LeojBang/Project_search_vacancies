@@ -58,5 +58,5 @@ def print_vacancies(vacancies: list[dict]) -> None:
         print(f"URL: {vacancy['url']}")
         salary = vacancy.get("salary", {})
         print(f"Зарплата: от {salary.get('from', 'Не указано')} до {salary.get('to', 'Не указано')}")
-        print(f"Описание: {vacancy['experience']}")
+        print(f"Опыт: {vacancy['experience']}")
         print("-" * 50)

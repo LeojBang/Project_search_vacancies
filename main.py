@@ -29,7 +29,7 @@ def user_interaction():
     # Сохранение информации о вакансиях в файл
     json_saver = JSONSaver()
     json_saver.add_vacancy(vacancies)
-    json_saver.delete_vacancy(vacancies)
+    # json_saver.delete_vacancy(vacancies)
 
     # Фильтрация по ключевым словам в названии вакансии
     filtered_vacancies = filter_vacancies(vacancies, filter_words)
